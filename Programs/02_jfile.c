@@ -35,3 +35,24 @@ int main (void)
     
     return 0;
 }
+
+
+
+// Features of static variables :
+    // 1. Keyword used        - static
+    // 2. Storage             - Memory
+    // 3. Default value       - Zero
+    // 4. Scope               - Local to the block in which it is declared
+    // 5. Lifetime            - Value persists between different function calls
+    // 6. Keyword optionality - Mandatory to use the keyword
+
+// extern
+// extern is used when a file needs to access a variable in another file that it may not have #included directly. Therefore, extern does not actually carve out space for a new variable, it just provides the compiler with sufficient information to access the remote variable.
+
+// Features of extern variable :
+    // 1. Keyword used        - extern
+    // 2. Storage             - Memory
+    // 3. Default value       - Zero
+    // 4. Scope               - Global (all over the program)
+    // 5. Lifetime            - Value persists till the program's execution comes to an end
+    // 6. Keyword optionality - Optional if declared outside all the functions
